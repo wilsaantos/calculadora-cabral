@@ -4,7 +4,7 @@
     "slug": "calculadora-cabral",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/logo.png",
+
     "scheme": "calculadora-cabral",
     "userInterfaceStyle": "dark",
     "splash": {
@@ -13,10 +13,6 @@
       "backgroundColor": "#1a0800"
     },
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/logo.png",
-        "backgroundColor": "#1a0800"
-      },
       "package": "com.cabral.calculadora",
       "versionCode": 1
     },
@@ -25,6 +21,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "a14d2c1d-2b85-47c1-a215-22e78d1b8357"
+      }
     }
   }
 }
